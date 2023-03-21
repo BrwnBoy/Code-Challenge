@@ -1,3 +1,6 @@
+function theGrade(){
+    alert("Here's the students grade!");
+}
 let marks = prompt("Enter student marks between o and 100:")
 
 let grade;
@@ -10,7 +13,7 @@ if (marks > 79) {
 } else if (marks >= 40 && marks <= 49) {
     grade = "D";
 } else {
-    grade = "E"
+    grade = "E";
 }
 
 console.log('The students grade is $[grade]');
