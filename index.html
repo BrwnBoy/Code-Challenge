@@ -4,16 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Week-1 Code-Challenge</title>
+    <title>Code-Challenge</title>
 </head>
 <body>
-    <button type="button">Student Grade Generator</button>
-    <script scr="index-1.js"></script>
+    <h1>WEEK-1 CODE-CHALLENGE</h1>
 
-    <button type="button">Speed Detector</button>
-    <script scr="index-2.js"></script>
+    <div>
+      <form>
+         <h1>Student Grade Generator</h1>
+         <label for="marks">Enter student marks</label>
+         <input type="number" id="marks">
+         <button type="button" onclick="calcGrade()">Calculate</button>
+      </form>
+      <p id="Result"></p>
+    </div>
 
-    <button type="button">Net Salary Calculator</button>
-    <script src="index-3.js"></script>
+    <div>
+        <form>
+            <h1>Speed Detector</h1>
+            <label for="carspeed">Enter the cars speed</label>
+            <input type="number" id="carSpeed">
+            <button type="button" onclick="calcdemeritPoints()">Detect</button>
+        </form>
+        <p id="License"></p>
+    </div>
+
+    <div>
+        <form>
+            <h1>Net Salary Calculator</h1>
+            <label for="netsalary">Enter desired amount</label>
+            <input type="number" id="netSalary">
+            <button type="button" onclick="calcnetSalary()">Calculate</button>
+        </form>
+        <p id="OutPut"></p>
+    </div>
+
+    <script type="text/Javascript" src="./Week-1/Student-Grade-Generator/index-1.js"></script>
+    <script type="text/Javascript" src="./Week-1/Speed-Detector/index-2.js"></script>
+    <script type="text/Javascript" src="./Week-1/Net-Salary-Calculator/index-3.js"></script>
 </body>
 </html>

@@ -1,6 +1,6 @@
-const speedLimit = 70;
+function calcdemeritPoints(carSpeed){
 
-let carSpeed = prompt("Enter the car speed:");
+const speedLimit = 70;
 
 let demeritPoints = 0;
 if (carSpeed > speedLimit) {
@@ -10,5 +10,6 @@ if (carSpeed > speedLimit) {
 if (demeritPoints > 12) {
     console.log("License suspended");
 } else {
-    console.log('Points: ${demeritPoints}');
+    console.log(`Points: ${demeritPoints}`);
+}
 }

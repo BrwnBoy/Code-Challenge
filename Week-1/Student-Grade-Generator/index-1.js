@@ -1,7 +1,4 @@
-function theGrade(){
-    alert("Here's the students grade!");
-}
-let marks = prompt("Enter student marks between o and 100:")
+function calcGrade(marks){
 
 let grade;
 if (marks > 79) {
@@ -16,4 +13,4 @@ if (marks > 79) {
     grade = "E";
 }
 
-console.log('The students grade is $[grade]');
+console.log(`The students grade is ${grade}`);}
